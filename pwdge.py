@@ -33,4 +33,4 @@ def generate_password():
     return render_template('index.html', password=password)
 
 if __name__ == '__main__':
-    app.run(debug=False)
+    app.run(debug=True)
